@@ -95,13 +95,13 @@ export var Marker = Layer.extend({
 		// Text for the `county` attribute of the icon image.
 		county: '',
 
-        // @option longitude: String = ''
+		// @option longitude: String = ''
 		// Text for the `longitude` attribute of the icon image (for example to store initial value)
-        longitude: '',
+		longitude: '',
 
-        // @option latitude: String = ''
+		// @option latitude: String = ''
 		// Text for the `latitude` attribute of the icon image (for example to store initial value)
-        latitude: ''
+		latitude: ''
 	},
 
 	/* @section
