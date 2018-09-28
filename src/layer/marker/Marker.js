@@ -85,7 +85,23 @@ export var Marker = Layer.extend({
 
 		// @option autoPanSpeed: Number = 10
 		// Number of pixels the map should pan by.
-		autoPanSpeed: 10
+		autoPanSpeed: 10,
+
+		// @option voivodeship: String = ''
+		// Text for the `voivodeship` attribute of the icon image.
+		voivodeship: '',
+
+		// @option county: String = ''
+		// Text for the `county` attribute of the icon image.
+		county: '',
+
+        // @option longitude: String = ''
+		// Text for the `longitude` attribute of the icon image (for example to store initial value)
+        longitude: '',
+
+        // @option latitude: String = ''
+		// Text for the `latitude` attribute of the icon image (for example to store initial value)
+        latitude: ''
 	},
 
 	/* @section
